@@ -4,7 +4,7 @@
 Jin Hong, Yoojin Han, Junseok Kwon
 
 <center>
-<img src="pipeline.png" width="600"/>
+<img src="framework.png" width="600"/>
 </center>
 
 
