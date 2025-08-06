@@ -128,6 +128,7 @@ Formatted with `black --line-length=120 --exclude external .`
 
 # Citation
 If you find our work useful, please cite our paper:
+```
 @inproceedings{jin2025occlusion,
   title={Occlusion-Robust Multi-Object Tracking with Adaptive Feature Management and Motion Compensation},
   author={Jin Hong, Yoojin Han, Junseok Kwon},
@@ -135,6 +136,7 @@ If you find our work useful, please cite our paper:
   year={2025},
   organization={IEEE}
 }
+```
 
 Also see Deep-OC-SORT, which we base our work upon: 
 ```
