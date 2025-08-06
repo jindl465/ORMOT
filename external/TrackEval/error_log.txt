@@ -1,0 +1,19 @@
+MotChallenge2DBox
+baseline_post
+Traceback (most recent call last):
+  File "/home/cvmlserver10/Jin/Deep-OC-SORT/external/TrackEval/trackeval/eval.py", line 99, in evaluate
+    res[curr_seq] = eval_sequence(
+  File "/home/cvmlserver10/Jin/Deep-OC-SORT/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/cvmlserver10/Jin/Deep-OC-SORT/external/TrackEval/trackeval/eval.py", line 263, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "/home/cvmlserver10/Jin/Deep-OC-SORT/external/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/home/cvmlserver10/Jin/Deep-OC-SORT/external/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 475, in get_preprocessed_seq_data
+    raise (
+trackeval.utils.TrackEvalException: Attempting to evaluate using invalid gt classes. This warning only triggers if preprocessing is performed, e.g. not for MOT15 or where prepropressing is explicitly disabled. Please either check your gt data, or disable preprocessing. The following invalid classes were found in timestep 0: -1
+
+
+
+
+
